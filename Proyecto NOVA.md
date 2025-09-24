@@ -1,66 +1,47 @@
-***Proyecto NOVA***
+Proyecto NOVA
+Objetivo General
 
+Desarrollar una aplicación móvil que permita registrar, visualizar y compartir estados emocionales vinculados a la ubicación geográfica del usuario, con funcionalidades sociales y analíticas.
 
+La aplicación funcionará como un diario emocional geolocalizado, que además podrá detectar patrones de tristeza prolongada y sugerir acciones o apoyo.
 
-**Objetivo General**
+Objetivos Específicos
 
+Implementar un sistema backend para gestionar usuarios, emociones y ubicaciones.
 
+Integrar servicios de geolocalización para capturar la ubicación en tiempo real.
 
--Desarrollar una aplicación móvil que permita registrar, visualizar y compartir estados emocionales vinculados a la ubicación geográfica del usuario, con funcionalidades sociales y analíticas.
+Diseñar una interfaz con mapa interactivo para visualizar emociones.
 
+Crear funcionalidades sociales para compartir emociones y recibir apoyo.
 
+Analizar patrones emocionales por usuario y por zona.
 
--Si alguien lleva varios días triste, la app lo detecta y le sugiere acciones o apoyo. Es como un diario emocional geolocalizado, con funciones sociales y analíticas.
+Tecnologías a Utilizar
+Backend
 
+Java con Spring Boot: Construcción de APIs REST, lógica de negocio, gestión de usuarios, emociones y ubicaciones.
 
+Base de Datos
 
-**Objetivos Específicos**
+PostgreSQL o MySQL: Almacenamiento de usuarios, emociones, ubicaciones, reacciones y consultas posteriores.
 
+Geolocalización
 
+Google Maps API o OpenStreetMap: Captura de ubicación en tiempo real y visualización en mapa.
 
--Implementar un sistema backend para gestionar usuarios, emociones y ubicaciones.
+Notificaciones
 
--Integrar servicios de geolocalización para capturar la ubicación en tiempo real.
+Firebase Cloud Messaging (FCM): Envío de notificaciones (ejemplo: alerta si alguien cercano comparte una emoción fuerte o si un usuario lleva varios días triste).
 
--Diseñar una interfaz que permita visualizar emociones en un mapa interactivo.
+Visualización de Datos
 
--Crear funcionalidades sociales para compartir emociones y recibir apoyo.
+Chart.js (u otra librería de gráficos): Mostrar estadísticas emocionales, como evolución en el tiempo y lugares donde se siente mejor.
 
--Analizar patrones emocionales por usuario y por zona.
+Funcionalidades Destacadas
 
+Detección automática de patrones emocionales (por ejemplo, varios días de tristeza).
 
+Sugerencias y apoyo basados en los datos emocionales del usuario.
 
-
-
-*Lo que se puede utilizar para desarrollar el proyecto es:*
-
-
-
-**-Java con Spring Boot**
-
-Para construir el backend. permite crear APIs REST, manejar la lógica de negocio, controlar usuarios, emociones, ubicaciones.
-
-
-
-**-PostgreSQL o MySQL**
-
-Se puede guardar la información de los usuarios, sus emociones, ubicaciones, reacciones, y todo lo que necesites consultar después.
-
-
-
-**-Google Maps API o OpenStreetMap**
-
-Para capturar la ubicación del usuario en tiempo real y mostrarla en el mapa.
-
-
-
-**Firebase Cloud Messaging**
-
--Para enviar notificaciones. Por ejemplo, si alguien cercano comparte una emoción fuerte, o si el sistema detecta que el usuario lleva varios días triste.
-
-
-
-**-Chart.js o alguna librería de gráficos**
-
-Para mostrar estadísticas emocionales del usuario: cómo ha cambiado su estado con el tiempo, en qué lugares se siente mejor, etc.
-
+Interacción social mediante el compartir emociones y brindar apoyo.
