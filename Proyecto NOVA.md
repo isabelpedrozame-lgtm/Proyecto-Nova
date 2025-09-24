@@ -1,5 +1,9 @@
 Proyecto NOVA
+
+
+
 Objetivo General
+
 
 Desarrollar una aplicación móvil que permita registrar, visualizar y compartir estados emocionales vinculados a la ubicación geográfica del usuario, con funcionalidades sociales y analíticas.
 
