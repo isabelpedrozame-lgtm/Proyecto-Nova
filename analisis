@@ -1,0 +1,32 @@
+Proyecto NOVA
+
+El proyecto NOVA busca desarrollar una aplicación móvil orientada al bienestar emocional. Su propósito es permitir que los usuarios
+registren y visualicen sus estados de ánimo, vinculándolos con su ubicación geográfica. De esta forma, cada persona podrá llevar un 
+registro de cómo se siente en distintos lugares y momentos, construyendo un diario emocional interactivo y visual.
+
+Además de funcionar como una herramienta de expresión personal, la aplicación pretende detectar patrones de tristeza prolongada y ofrecer 
+apoyo o sugerencias, fomentando el autocuidado y la conexión con otros usuarios. La propuesta combina aspectos tecnológicos, analíticos y
+sociales para crear una experiencia integral centrada en la salud mental.
+
+En la parte técnica, el sistema contará con un backend desarrollado en Java con Spring Boot, encargado de manejar la lógica de negocio, la
+gestión de usuarios y el almacenamiento de datos. Se empleará PostgreSQL o MySQL como base de datos principal, ya que ambas ofrecen estabilidad
+y buen rendimiento. Laintegración con Google Maps API o OpenStreetMap permitirá capturar la ubicación en tiempo real y mostrar las emociones 
+directamente sobre un mapa interactivo.
+
+El proyecto también contempla el uso de Firebase Cloud Messaging para enviar notificaciones, como alertas cuando un usuario presente emociones
+negativas de forma repetida, o recordatorios para registrar su estado emocional. Por otro lado, la visualización de datos se realizará
+mediante Chart.js u otra librería similar, con el fin de mostrar estadísticas personales, evolución de emociones y análisis por zonas.
+
+ Objetivos Específicos  
+- Implementar un sistema backend para gestionar usuarios, emociones y ubicaciones.  
+- Integrar servicios de geolocalización para capturar la ubicación en tiempo real.  
+- Diseñar una interfaz con mapa interactivo para visualizar emociones.  
+- Crear funcionalidades sociales para compartir emociones y recibir apoyo.  
+- Analizar patrones emocionales por usuario y por zona.  
+
+
+Finalmente, el proyecto da gran importancia a la privacidad y seguridad de los datos, implementando autenticación segura, manejo responsable
+de la geolocalización y anonimato en la información emocional.
+
+En conclusión, NOVA es una propuesta que combina empatía y tecnología. Su meta es crear un entorno digital que ayude a las personas a conocerse
+mejor emocionalmente, brindando herramientas útiles para el bienestar mental y la conexión social.
