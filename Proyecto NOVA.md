@@ -5,4 +5,6 @@
 
 - **Círculo de Confianza y Seguridad: Permite a los usuarios crear un "círculo emocional" privado. Los miembros de este círculo no solo conocen la ubicación física de un ser querido, sino que también pueden obtener una visión general sutil de su estado emocional reciente (con los límites de privacidad que el usuario decida).*
 
-- **Intervención Contextualizada: Se pueden enviar notificaciones ($Firebase$) o sugerencias de apoyo basadas en el lugar donde el usuario registra consistentemente emociones negativas. Por ejemplo, recordar una técnica de relajación si está en un lugar estresante conocido.*
+- **Intervención Contextualizada: Se pueden enviar notificaciones o sugerencias de apoyo basadas en el lugar donde el usuario registra consistentemente emociones negativas. Por ejemplo, recordar una técnica de relajación si está en un lugar estresante conocido.*
+
+La aplicacion trasciende la funcionalidad de un simple diario. Fusionamos la Inteligencia Contextual (emoción vinculada a la geolocalización) con una red de apoyo social segura, permitiendo una intervención proactiva donde más se necesita.
