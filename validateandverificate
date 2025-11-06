@@ -1,0 +1,15 @@
+Verificación
+•	Se debe verificar que el sistema de registro y autenticación funcione correctamente, permitiendo solo el acceso a usuarios registrados.
+•	Verificar que la aplicación tenga la ubicación en tiempo real al momento de registrar una emoción.
+•	Comprobar que la aplicación solicite permisos de ubicación antes de acceder.
+•	Verificar que la función de guía emocional semanal se active únicamente cuando el usuario si sea constante en la aplicación y se registre.
+•	Comprobar que los datos registrados en la base de datos se guarden correctamente sin errores ni duplicados.
+•	Revisar que las notificaciones se envíen de forma adecuada cuando el sistema detecte patrones de tristeza cuando lleve mucho tiempo así.
+•	El sistema tiene que mantener la integridad de los datos al momento de sincronizar la información entre el backend y la aplicación móvil.
+
+Validación
+•	Solo los usuarios que tengan instalada la aplicación y estén registrados podrán acceder.
+•	Los usuarios deben tener todos los permisos de acceso a la ubicación en tiempo real habilitados.
+•	La aplicación debe permitir registrar emociones de forma sencilla, que se pueda conectar con la ubicación del usuario.
+•	Solo los usuarios que utilicen la aplicación de manera constante y registren emociones con frecuencia podrán acceder a la guía de ayuda semanal.
+•	El sistema debe asegurar la confidencialidad de los datos personales y emocionales de cada usuario, para poder cumplir con la privacidad.
