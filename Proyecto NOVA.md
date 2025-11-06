@@ -1,34 +1,8 @@
-# Proyecto NOVA  
+## ¿Por que es una buena idea?
+- **Aborda una Necesidad Central (Salud Mental): El bienestar emocional es una preocupación global y prioritaria. Ofrece una herramienta accesible y privada para el autocuidado y la expresión personal, respondiendo a la creciente demanda de soluciones en este ámbito.*
 
-## Objetivo General  
-Desarrollar una aplicación móvil que permita **registrar, visualizar y compartir estados emocionales** vinculados a la ubicación geográfica del usuario, con funcionalidades sociales y analíticas.  
+- **Innovación en la Conexión Contextual: El factor diferenciador es la capacidad de vincular emociones con la ubicación geográfica. Esto no es solo un diario, es una herramienta de análisis de contexto. Permite al usuario identificar:Si ciertos lugares (trabajo, hogar, u, etc.) son consistentemente fuentes de estrés o felicidad.*
 
-La aplicación funcionará como un **diario emocional geolocalizado**, que además podrá **detectar patrones de tristeza prolongada** y sugerir acciones o apoyo.  
+- **Círculo de Confianza y Seguridad: Permite a los usuarios crear un "círculo emocional" privado. Los miembros de este círculo no solo conocen la ubicación física de un ser querido, sino que también pueden obtener una visión general sutil de su estado emocional reciente (con los límites de privacidad que el usuario decida).*
 
----
-
-## Objetivos Específicos  
-- Implementar un sistema backend para gestionar usuarios, emociones y ubicaciones.  
-- Integrar servicios de geolocalización para capturar la ubicación en tiempo real.  
-- Diseñar una interfaz con mapa interactivo para visualizar emociones.  
-- Crear funcionalidades sociales para compartir emociones y recibir apoyo.  
-- Analizar patrones emocionales por usuario y por zona.  
-
----
-
-## Tecnologías a Utilizar  
-
-### Backend  
-- **Java con Spring Boot**: Construcción de APIs REST, lógica de negocio, gestión de usuarios, emociones y ubicaciones.  
-
-### Base de Datos  
-- **PostgreSQL o MySQL**: Almacenamiento de usuarios, emociones, ubicaciones, reacciones y consultas posteriores.  
-
-### Geolocalización  
-- **Google Maps API** o **OpenStreetMap**: Captura de ubicación en tiempo real y visualización en mapa.  
-
-### Notificaciones  
-- **Firebase Cloud Messaging (FCM)**: Envío de notificaciones (ejemplo: alerta si alguien cercano comparte una emoción fuerte o si un usuario lleva varios días triste).  
-
-### Visualización de Datos  
-- **Chart.js** (u otra librería de gráficos): Mostrar estadísticas emocionales, como evolución en el tiempo y lugares donde se siente mejor.  
+- **Intervención Contextualizada: Se pueden enviar notificaciones ($Firebase$) o sugerencias de apoyo basadas en el lugar donde el usuario registra consistentemente emociones negativas. Por ejemplo, recordar una técnica de relajación si está en un lugar estresante conocido.*
